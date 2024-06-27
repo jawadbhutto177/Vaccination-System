@@ -1,0 +1,24 @@
+Database Name: Vaccination_System
+admin email is = admin@gmail.com
+admin password is = admin
+
+Vaccination_System
+-------------------
+Roles
+-----
+Admin
+Hospital
+Patient
+
+Tables
+------
+Admin(id,name,email,password,image)
+Hospital(id,name,contact,cid,address,image,email,password,status)
+Patient(id,name,contact,email,password,image,gender,city,address,status)
+Vaccines(id,name,status)
+Appointment(id,pid,hid,date,time,vid,status)
+Test(id,pid,hid,date,time,result)
+Feedback(id,pid,message)
+City(id,name)
+
+
